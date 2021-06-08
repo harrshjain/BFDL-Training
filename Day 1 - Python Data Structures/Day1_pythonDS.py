@@ -8,7 +8,7 @@ def getValues(d, lst):
             lst.append(y)
     return lst
 
-def getOutput(d,key):
+def getOutput(d, key):
     lst = []
     for a, b in d.items():
         if a == key:
